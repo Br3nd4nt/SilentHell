@@ -94,6 +94,9 @@
 			);
 			mainGroup = 0604CFD92FE9BFF80084A473;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0604CFF32FE9C40A0084A473 /* XCRemoteSwiftPackageReference "AdaEngine" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0604CFE32FE9BFF80084A473 /* Products */;
 			projectDirPath = "";
@@ -331,6 +334,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0604CFF32FE9C40A0084A473 /* XCRemoteSwiftPackageReference "AdaEngine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AdaEngine/AdaEngine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 0604CFDA2FE9BFF80084A473 /* Project object */;
 }
