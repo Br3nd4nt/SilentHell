@@ -34,6 +34,8 @@ Icon
 ### Xcode
 # Xcode user settings
 xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
 
 # Xcode build artifacts
 build/
@@ -62,6 +64,8 @@ playground.xcworkspace
 ### Swift
 # Xcode user settings
 xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
 
 # Xcode build data
 DerivedData/
