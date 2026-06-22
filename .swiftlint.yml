@@ -1,6 +1,5 @@
 included:
-  - SilentHell/App
-  - SilentHell/Renderer
+  - Sources
 
 excluded:
   - .build
@@ -8,5 +7,6 @@ excluded:
   - SourcePackages
   - Packages
   - SilentHell.xcodeproj
+  - SilentHell
 
 reporter: xcode
