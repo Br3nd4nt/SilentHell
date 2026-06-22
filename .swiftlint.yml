@@ -1,0 +1,12 @@
+included:
+  - SilentHell/App
+  - SilentHell/Renderer
+
+excluded:
+  - .build
+  - .swiftpm
+  - SourcePackages
+  - Packages
+  - SilentHell.xcodeproj
+
+reporter: xcode

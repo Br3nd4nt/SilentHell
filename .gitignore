@@ -38,6 +38,9 @@ xcuserdata/
 # Xcode build artifacts
 build/
 DerivedData/
+.build/
+.swiftpm/
+SourcePackages/
 
 # Obj-C/Swift specific
 *.hmap
@@ -77,3 +80,7 @@ playground.xcworkspace
 
 # Swift Package Manager
 # Package.resolved
+
+# Local package/build caches
+.clang-cache/
+.swiftpm-cache/
